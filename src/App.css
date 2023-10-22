@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.nav-link{
+  font-family: 'Playfair Display', serif;
+
+}
+
+.search input, .search button{
+  font-weight: 500;
+}
+
+@media(max-width:992px){
+  .container-fluid{
+    padding: 1rem;
+  }
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+}
+
+.row{
+  max-width: 80rem;
+}
+
+.card{
+  max-width: 25rem;
+  height: 33rem;
+}
+
+.card-img-top{
+  height: 14rem;
+}
+
+/* .card-text{
+  margin: 0 0 0.2rem 0;
+} */
+
+.read-btn{
+  color: white;
+  background-color: #EF0107;
+  border-radius: 5px;
+  border: none;
+}
+
+.read-btn:hover{
+  color: white;
+  background-color: #a30005;
+}
+
+.pagination{
+  max-width: 20rem;
+}
+
+.pagination button{
+  width: 7.5rem;
+  padding: 0.3rem 1rem;
+}
+
+button:disabled, button:disabled:hover{
+  color: rgb(174, 174, 174);
+  background-color: #980006;
+}
+
+.load-card{
+padding: 0;
+/* min-width: 18rem; */
+width: 25rem;
+color: #72a338;
+}
+
+.categories{
+  max-width: 80rem;
+}
+
+.categories .btn{
+  background-color: rgb(221, 221, 221);
+  border-radius: 2rem;
+  margin:0.5rem 1rem 0 0;
+}
+
+.col-md-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
